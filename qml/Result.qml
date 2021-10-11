@@ -19,7 +19,7 @@ Rectangle {
     Text {
         id: title2
         text:t2
-        font{family: f; pointSize: 13; bold: true}
+        font{family: f; pointSize: 13; bold: false}
         anchors.top: title1.bottom
         anchors.topMargin: 5
         x: title1.x
