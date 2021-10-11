@@ -14,7 +14,6 @@ Rectangle {
     }
 
     Rectangle {id: result
-        visible: false
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width * 1
         height: parent.height - search.height * 2
@@ -35,7 +34,8 @@ Rectangle {
                 spacing: 10
                 Rectangle {
                     height: 80
-                    width: root.width * 0.5                }
+                    width: root.width * 0.5
+                }
             }
         }
 
