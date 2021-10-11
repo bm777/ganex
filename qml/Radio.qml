@@ -22,7 +22,7 @@ RadioButton {
             x: 6
             y: 6
             radius: 7
-            color: control.down ? "#17a81a" : "#21be2b"
+            color: control.down ? first : second
             visible: control.checked
         }
     }
@@ -31,7 +31,7 @@ RadioButton {
         text: control.text
         font: control.font
         opacity: enabled ? 1.0 : 0.3
-        color: control.down ? "#17a81a" : "#21be2b"
+        color: control.down ? first : second
         verticalAlignment: Text.AlignVCenter
         leftPadding: control.indicator.width + control.spacing
     }
