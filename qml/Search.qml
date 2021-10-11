@@ -23,7 +23,6 @@ Rectangle {
         height: 20
         width: parent.width - _l.width - _r.width
         maximumLength: 30
-        anchors.centerIn: parent
         hoverEnabled: true
         font{family: "Comfortaa"; pointSize: 14}
         background: Rectangle {
