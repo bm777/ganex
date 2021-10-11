@@ -77,6 +77,14 @@ Item {
          y: parent.height * 0.8
          color: "#666666"
      }
+     Rectangle {
+         width: parent.width * 0.8
+         height: parent.height * 0.15
+         anchors.horizontalCenter: parent.horizontalCenter
+         color: "#ffdf60"
+         anchors.top: connexion.bottom
+         anchors.topMargin: 5
+     }
 
 
 
