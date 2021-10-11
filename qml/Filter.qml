@@ -95,7 +95,8 @@ Item {
      Rectangle {
          width: parent.width * 0.8
          height: child.height * 1.5
-         color: "#ffdf60"
+         color: "transparent"
+         border.color: "#ffdf60"
          anchors.top: frame.bottom
          radius: height/2
          anchors.bottomMargin: 5
