@@ -5,7 +5,7 @@ Rectangle {
     color: "#ffdf60"
     radius: 15
     property string f: "Nunito"
-    property string t1: "Title"
+    property string t1: "Title of the art"
     property string t2: "sub title"
 
 
@@ -13,8 +13,8 @@ Rectangle {
         id: title1
         text:t1
         font{family: f; pointSize: 12}
-        x: parent.width * 0.1
-        y: x
+        x: parent.width * 0.05
+        y: 10
     }
 
 
