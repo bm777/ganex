@@ -48,7 +48,15 @@ Item {
      }
 
 
-
+    /// connected as
+     Text {
+         id: connexion
+         text: "Connected as"
+         font{family: f; pointSize: 15; bold: true}
+         x: parent.width * 0.1
+         y: x * 0.6
+         color: "#666666"
+     }
 
 
 
