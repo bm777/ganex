@@ -23,6 +23,7 @@ Rectangle {
         width: parent.width - content.x - content.width
         anchors.left: content.right
         height: parent.height
-        border.color: "red"
+//        border.color: "red"
+        color: "transparent"
     }
 }
