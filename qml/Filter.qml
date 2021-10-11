@@ -38,7 +38,7 @@ Item {
 
      /// place and date
      Text {
-         id: date_filter
+         id: picture_filter
          text: "Picture"
          font{family: f; pointSize: 11; bold: false}
          x: filter.x
