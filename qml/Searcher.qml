@@ -21,7 +21,7 @@ Rectangle {
         height: parent.height - search.height * 2
         anchors.top: search.bottom
         anchors.topMargin: 5
-        color: "#D4EDFF"
+//        color: "#D4EDFF"
 //                border.color: "blue"
         ScrollView {
             clip: true
