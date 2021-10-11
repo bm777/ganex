@@ -40,13 +40,14 @@ Rectangle {
     Rectangle {
         anchors.verticalCenter: parent.verticalCenter
         height: parent.height * 0.4
-        anchors.left: search.right
+        x: parent.width - width
         width: height
 
         Image {id: _r
             source: "../img/micro.png"
             height: parent.height
             width: parent.width
+            anchors.centerIn: parent
         }
     }
 }
