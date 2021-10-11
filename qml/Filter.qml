@@ -84,7 +84,7 @@ Item {
          color: "#ffdf60"
          anchors.left: connexion.right
          radius: height/2
-         anchors.topMargin: 5
+         anchors.leftMargin: 5
          Text {id: child
              text: "Searcher"
              font{family: f; pointSize: 13; bold: false}
