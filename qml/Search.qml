@@ -34,7 +34,7 @@ Rectangle {
 
     // micro
     Image {
-        source: "qrc:img/micro"
+        source: "../img/micro.png"
         height: parent.height * 0.4
         width: height
         anchors.verticalCenter: parent.verticalCenter
