@@ -12,7 +12,7 @@ Rectangle {
     Text {
         id: title1
         text:t1
-        font{family: f; pointSize: 12}
+        font{family: f; pointSize: 13; bold: true}
         x: parent.width * 0.05
         y: 10
     }
