@@ -49,6 +49,7 @@ Rectangle {
                     MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}
                 }
                 Result {
+                    t1: "Dj snake | freestyle"
                     height: 100
                     width: root.width * 0.5
                     x: root.width/2 - width/2
