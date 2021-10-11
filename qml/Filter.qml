@@ -74,7 +74,7 @@ Item {
          text: "Connected as"
          font{family: f; pointSize: 15; bold: false}
          x: parent.width * 0.1
-         y: parent.height * 0.8
+         y: parent.height * 0.9
          color: "#666666"
      }
      Rectangle {
@@ -84,6 +84,7 @@ Item {
          anchors.left: connexion.right
          radius: height/2
          anchors.leftMargin: 5
+         y:
          Text {id: child
              text: "Searcher"
              font{family: f; pointSize: 13; bold: false}
