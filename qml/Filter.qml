@@ -78,11 +78,12 @@ Item {
          color: "#666666"
      }
      Rectangle {
-         width: child.width * 0.2
+         width: child.width * 1.2
          height: child.height
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#ffdf60"
          anchors.top: connexion.bottom
+         radius: height/2
          anchors.topMargin: 5
          Text {id: child
              text: "Searcher"
