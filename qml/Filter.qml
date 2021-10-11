@@ -47,6 +47,13 @@ Item {
          anchors.top: filter.bottom
          anchors.topMargin: 10
      }
+     RadioButton {
+         anchors.centerIn: parent
+         width: parent.width * 0.9
+         height: width
+         anchors.left: picture_filter.right
+         anchors.leftMargin: 10
+     }
      Rectangle {
          height: picture_filter.height
          width: height
@@ -55,11 +62,7 @@ Item {
          color: "red"
          y: picture_filter.y
          anchors.leftMargin: 10
-         RadioButton {
-             anchors.centerIn: parent
-             width: parent.width * 0.9
-             height: width
-         }
+
      }
 
 
