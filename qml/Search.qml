@@ -21,13 +21,13 @@ Rectangle {
         placeholderText: "What are you looking for"
         color: "#666666"
         height: 20
-        width: parent.width - _l.width - _r.width
+        width: parent.width - (_l.width + _r.width) * 2
         maximumLength: 30
         hoverEnabled: true
         font{family: "Comfortaa"; pointSize: 14}
         background: Rectangle {
             color: "transparent"
-    //        border.color: "black"
+            border.color: "black"
         }
         verticalAlignment: TextInput.AlignVCenter
 
