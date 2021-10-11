@@ -74,7 +74,7 @@ Item {
          text: "Connected as:"
          font{family: f; pointSize: 15; bold: false}
          x: parent.width * 0.1
-         y: parent.height * 0.8
+         y: parent.height * 0.85
          color: "#666666"
      }
      Rectangle {id: frame
@@ -99,7 +99,7 @@ Item {
          border.color: "#ffdf60"
          anchors.top: frame.bottom
          radius: height/2
-         anchors.topMargin: 5
+         anchors.topMargin: 20
          anchors.horizontalCenter: parent.horizontalCenter
          y: connexion.y + connexion.height/2 - height/2
          Text {id: content
