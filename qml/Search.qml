@@ -42,6 +42,7 @@ Rectangle {
         height: parent.height * 0.4
         x: parent.width - width
         width: height
+        radius: height/2
 
         Image {id: _r
             source: "../img/micro.png"
