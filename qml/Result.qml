@@ -13,10 +13,14 @@ Rectangle {
         color: "#000000"
         anchors.centerIn: parent
     }
-    Rectangle {
+    Rectangle {id: content
         height: parent.height
         width: parent.width * 0.45
         color: "#ffffff"
         anchors.left: separator.right
+    }
+    Rectangle {
+        width: parent.width - separator.width - content.width
+        anchors.left: content.right
     }
 }
