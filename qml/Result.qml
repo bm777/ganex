@@ -45,7 +45,15 @@ Rectangle {
             anchors.centerIn: parent
             height: parent.height
             width: height
-            source: music ? "../img/music.png" : "../img/art.png"
+            visible: music
+            source: "../img/music.png"
+        }
+        Image {
+            anchors.centerIn: parent
+            height: parent.height
+            width: height
+            visible: !music
+            source: "../img/art.png"
         }
     }
     Rectangle {
