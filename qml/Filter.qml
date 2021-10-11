@@ -51,7 +51,8 @@ Item {
      Column {
          x:filter.x
          height: picture_filter.height * 0.7
-         y: picture_filter.y
+         anchors.top: picture_filter.bottom
+         anchors.topMargin: 20
          Radio {
              checked: true
              text: qsTr("Picture")
