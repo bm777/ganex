@@ -36,6 +36,14 @@ Rectangle {
                     height: 100
                     width: root.width * 0.5
                     x: root.width/2 - width/2
+
+                    MouseArea {
+                        anchors.fill: parent
+                        hoverEnabled: true
+                        onClicked: {
+
+                        }
+                    }
                 }
 
 

@@ -10,6 +10,7 @@ Rectangle {
     property bool music: false
 
 
+
     Text {
         id: title1
         text:t1
@@ -70,4 +71,6 @@ Rectangle {
             color: "#000000"
         }
     }
+
+
 }
