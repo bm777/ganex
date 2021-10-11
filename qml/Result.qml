@@ -9,7 +9,7 @@ Rectangle {
     /// separator
     Rectangle {
         height: parent.height
-        width: 2
+        width: 4
         color: "#000000"
         anchors.centerIn: parent
     }
