@@ -20,7 +20,7 @@ Rectangle {
         width: parent.width * 1
         height: parent.height - search.height * 2
         anchors.top: search.bottom
-        anchors.topMargin: 5
+        anchors.topMargin: 20
         color: "transparent"
 //                border.color: "blue"
         ScrollView {
