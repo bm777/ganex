@@ -16,6 +16,15 @@ Rectangle {
         x: parent.width * 0.05
         y: 10
     }
+    Text {
+        id: title2
+        text:t1
+        font{family: f; pointSize: 13; bold: true}
+        anchors.top: title1.bottom
+        anchors.topMargin: 25
+        color: "#666666"
+        y: 10
+    }
 
 
 
