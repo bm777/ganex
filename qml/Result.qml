@@ -6,7 +6,7 @@ Rectangle {
     radius: 15
     property string f: "Nunito"
     property string t1: "Title of the art"
-    property string t2: "sub title"
+    property string t2: "sub title of the top"
 
 
     Text {
@@ -18,10 +18,11 @@ Rectangle {
     }
     Text {
         id: title2
-        text:t1
+        text:t2
         font{family: f; pointSize: 13; bold: true}
         anchors.top: title1.bottom
-        anchors.topMargin: 25
+        anchors.topMargin: 5
+        x: title1.x
         color: "#666666"
     }
 
