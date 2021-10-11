@@ -40,7 +40,7 @@ Rectangle {
     Rectangle {
         anchors.verticalCenter: parent.verticalCenter
         height: parent.height * 0.9
-        x: parent.width - width
+        x: parent.width - width - parent.height * 0.1
         width: height
         radius: height/2
         border.color: "red"
