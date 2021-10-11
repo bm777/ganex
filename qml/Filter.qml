@@ -84,7 +84,7 @@ Item {
          anchors.left: connexion.right
          radius: height/2
          anchors.leftMargin: 5
-         y: connexion.y
+         y: connexion.y + connexion.height/2 - height/2
          Text {id: child
              text: "Searcher"
              font{family: f; pointSize: 13; bold: true}
