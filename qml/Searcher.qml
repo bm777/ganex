@@ -6,5 +6,8 @@ Rectangle {
     color: "transparent"
 
 
-
+    Search {
+        id: search
+        width:parent.width * 0.4
+    }
 }
