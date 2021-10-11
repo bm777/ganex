@@ -32,7 +32,9 @@ Rectangle {
 
             Column {
                 id: col
-
+                Rectangle {
+                    anchors.
+                }
             }
         }
 
