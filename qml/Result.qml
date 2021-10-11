@@ -45,7 +45,7 @@ Rectangle {
             anchors.centerIn: parent
             height: parent.height
             width: height
-            source: ""
+            source: music ? "../img/music.png" : "../img/art.png"
         }
     }
     Rectangle {
