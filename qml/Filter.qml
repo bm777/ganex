@@ -78,7 +78,7 @@ Item {
          color: "#666666"
      }
      Rectangle {
-         width: parent.width * 0.8
+         width: child.width * 0.2
          height: child.height
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#ffdf60"
