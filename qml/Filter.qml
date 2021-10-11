@@ -79,11 +79,18 @@ Item {
      }
      Rectangle {
          width: parent.width * 0.8
-         height: parent.height * 0.15
+         height: child
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#ffdf60"
          anchors.top: connexion.bottom
          anchors.topMargin: 5
+         Text {
+             text: "Searcher"
+             font{family: f; pointSize: 15; bold: false}
+             x: parent.width * 0.1
+             y: parent.height * 0.8
+             color: "#666666"
+         }
      }
 
 
