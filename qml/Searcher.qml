@@ -18,7 +18,7 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         width: parent.width * 1
         height: parent.height - search.height * 2
-        anchors.top: res.bottom
+        anchors.top: search.bottom
         anchors.topMargin: 5
         color: "#D4EDFF"
 //                border.color: "blue"
