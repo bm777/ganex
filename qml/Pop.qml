@@ -12,6 +12,10 @@ Rectangle {
         font{pointSize: 20}
         x: parent.width - width * 1.5
         y: 5
+        MouseArea {
+            anchors.fill: parent
+            onClicked: root.visible = false
+        }
     }
 
 }
