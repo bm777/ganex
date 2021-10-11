@@ -36,6 +36,14 @@ Rectangle {
                     height: 80
                     width: root.width * 0.5
                 }
+                Rectangle {
+                    height: 80
+                    width: root.width * 0.5
+                }
+                Rectangle {
+                    height: 80
+                    width: root.width * 0.5
+                }
             }
         }
 
