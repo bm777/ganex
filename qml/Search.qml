@@ -42,6 +42,7 @@ Rectangle {
         height: parent.height * 0.4
         anchors.left: search.right
         width: height
+
         Image {id: _r
             source: "../img/micro.png"
             height: parent.height
