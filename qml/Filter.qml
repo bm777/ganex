@@ -34,7 +34,7 @@ Item {
          text: "Filters"
          font{family: f; pointSize: 15; bold: true}
          x: parent.width * 0.1
-         y: parent.height * 0.2
+         y: parent.height * 0.15
          color: "#666666"
      }
      Image {
