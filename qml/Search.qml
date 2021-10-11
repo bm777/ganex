@@ -17,7 +17,7 @@ Rectangle {
     }
 
     // search
-    TextField {
+    TextField {id: search
         placeholderText: "What are you looking for"
         color: "#666666"
         maximumLength: 30

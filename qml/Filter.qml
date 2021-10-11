@@ -115,8 +115,8 @@ Item {
              onEntered: parent.color = "#40ffdf60"
              onExited: parent.color = "transparent"
              onClicked: {
-                 if(child.text === "Search") child.text = "Creator"
-                 else child.text = "Search"
+                 if(child.text === "Searcher") child.text = "Creator"
+                 else child.text = "Searcher"
              }
          }
 
