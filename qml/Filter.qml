@@ -47,6 +47,11 @@ Item {
          anchors.topMargin: 10
      }
 
+
+
+
+
+
      // background for content of filter
      Rectangle {
          width: parent.width * 0.8
