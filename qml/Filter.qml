@@ -55,7 +55,7 @@ Item {
          Radio {
              checked: true
              text: qsTr("Picture")
-             first: "#1bffdf"
+             first: "#ffdf60"
          }
          Radio {
              text: qsTr("Audio")
