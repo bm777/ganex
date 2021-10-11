@@ -55,9 +55,10 @@ Item {
          color: "red"
          y: picture_filter.y
          anchors.leftMargin: 10
-         Rad {
+         Rectangle {
              anchors.centerIn: parent
-             color:
+             width: parent.width * 0.9
+             height: width
          }
      }
 
