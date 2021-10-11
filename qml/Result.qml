@@ -10,5 +10,7 @@ Rectangle {
     Rectangle {
         height: parent.height
         width: 2
+        color: "#000000"
+        anchors.centerIn: parent
     }
 }
