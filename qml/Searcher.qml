@@ -11,4 +11,8 @@ Rectangle {
         width:parent.width * 0.4
         anchors.horizontalCenter: parent.horizontalCenter
     }
+
+    Rectangle {
+
+    }
 }
