@@ -92,6 +92,21 @@ Item {
              color: "#666666"
          }
      }
+     Rectangle {
+         width: child.width * 1.5
+         height: child.height * 1.5
+         color: "#ffdf60"
+         anchors.left: connexion.right
+         radius: height/2
+         anchors.leftMargin: 5
+         y: connexion.y + connexion.height/2 - height/2
+         Text {id: content
+             text: "switch"
+             font{family: f; pointSize: 12; bold: true}
+             anchors.centerIn: parent
+             color: "#666666"
+         }
+     }
 
 
 
