@@ -33,8 +33,8 @@ Rectangle {
             Column {
                 id: col
                 Rectangle {
-                    anchors.
-                }
+                    height: 80
+                    width: root.width * 0.5                }
             }
         }
 
