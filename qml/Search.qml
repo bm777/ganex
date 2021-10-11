@@ -29,7 +29,7 @@ Rectangle {
         font{family: f; pointSize: 12}
         background: Rectangle {
             color: "transparent"
-            border.color: "black"
+//            border.color: "black"
         }
         anchors.left: _l.right
         verticalAlignment: TextInput.AlignVCenter
@@ -43,6 +43,7 @@ Rectangle {
         x: parent.width - width
         width: height
         radius: height/2
+        border.color: "red"
 
         Image {id: _r
             source: "../img/micro.png"
