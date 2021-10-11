@@ -5,7 +5,7 @@ import QtGraphicalEffects 1.12
 
 Window {
     id: root
-    title: qsTr("vpot")
+    title: qsTr("ganex")
     width: 1500
     height: 800
     visible: true
@@ -36,12 +36,19 @@ Window {
     Item {
         id: search
         visible: filter.search
+        width: parent.width - filter.width
+        height: parent.height - filter.y
+        y: filter.y
+        x: filter.width
+
+        Searcher {
+            border.color: "red"
+
+        }
     }
     Item {
         id: creator
         visible: !search.visible
     }
-
-
 
 }

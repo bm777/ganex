@@ -9,7 +9,7 @@ Rectangle {
     color: "#10b6b6b6"
     // icon searcah
     Image {
-        source: "qrc:img/search"
+        source: "../img/search.png"
         height: parent.height * 0.4
         width: height
         anchors.verticalCenter: parent.verticalCenter
