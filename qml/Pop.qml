@@ -23,6 +23,8 @@ Rectangle {
     Text {
         id: _t1
         text: t1
+        x: parent.width * 0.05
+        y: x
     }
 
 }
