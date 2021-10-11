@@ -35,10 +35,11 @@ Window {
     //
     Item {
         id: search
+        visible: filter.search
     }
     Item {
         id: creator
-        visible: filter.creator
+        visible: !search.visible
     }
 
 

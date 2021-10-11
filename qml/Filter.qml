@@ -5,6 +5,7 @@ Item {
     id: root
     property bool dark: false
     property string f: "Nunito"
+    property bool search: true
 
     //
      Rectangle {
@@ -53,7 +54,7 @@ Item {
          height: type_filter.height * 0.7
          anchors.top: type_filter.bottom
          anchors.topMargin: 10
-         Radio {
+         Radio {id: s
              checked: true
              text: qsTr("Picture")
              first: "#ffdf60"
