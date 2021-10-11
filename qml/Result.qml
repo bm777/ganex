@@ -29,6 +29,8 @@ Rectangle {
             width: parent.width * 0.3
             height: width
             anchors.centerIn: parent
+            radius: height/2
+            color: "#000000"
         }
     }
 }
