@@ -54,16 +54,6 @@ Item {
          anchors.left: picture_filter.right
          anchors.leftMargin: 10
      }
-     Rectangle {
-         height: picture_filter.height
-         width: height
-         anchors.left: picture_filter.right
-         radius: height/2
-         color: "red"
-         y: picture_filter.y
-         anchors.leftMargin: 10
-
-     }
 
 
     /// connected as
