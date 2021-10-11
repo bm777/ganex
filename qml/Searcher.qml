@@ -60,7 +60,7 @@ Rectangle {
                 }
                 Result {
                     height: 100
-                    t1: "Imgk | showinf the space"
+                    t1: "Imgk | showing the space"
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                     visible: audio
@@ -68,7 +68,7 @@ Rectangle {
                 }
                 Result {
                     height: 100
-                    t1: "Imgk | showinf the space"
+                    t1: "Open drean | showing the sky"
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                     visible: audio
