@@ -31,7 +31,7 @@ RadioButton {
         text: control.text
         font: control.font
         opacity: enabled ? 1.0 : 0.3
-        color: control.down ? "#78909c" : second
+        color: "#78909c"
         verticalAlignment: Text.AlignVCenter
         leftPadding: control.indicator.width + control.spacing
     }
