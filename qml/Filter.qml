@@ -40,7 +40,7 @@ Item {
      Text {
          id: picture_filter
          text: "Picture"
-         font{family: f; pointSize: 11; bold: false}
+         font {family: f; pointSize: 11; bold: false}
          x: filter.x
          color: "#78909c"
          anchors.top: filter.bottom
