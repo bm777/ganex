@@ -108,6 +108,11 @@ Item {
              anchors.centerIn: parent
              color: "#ffdf60"
          }
+         MouseArea {
+             anchors.fill: parent
+             hoverEnabled: true
+             onEntered: parent.color = "#40ffdf60"
+         }
 
      }
 
