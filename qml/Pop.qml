@@ -29,11 +29,11 @@ Rectangle {
     }
     Text {
         id: _t2
-        text: t1
+        text: t2
         x: parent.width * 0.05
-        y: x * 3
+        y: x * 2
         color: "#666666"
-        font{family: "Nunito"; pointSize: 14}
+        font{family: "Nunito"; pointSize: 12}
     }
 
 }
