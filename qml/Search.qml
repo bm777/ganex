@@ -18,7 +18,7 @@ Rectangle {
 
     // search
     TextField {
-        placeholderText: "Search by Place or Potition"
+        placeholderText: "What are you looking for"
         color: "#80000000"
         maximumLength: 30
         anchors.centerIn: parent
