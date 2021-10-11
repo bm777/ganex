@@ -52,7 +52,7 @@ Rectangle {
                     height: 100
                     width: root.width * 0.5
                     x: root.width/2 - width/2
-                    visible: audio
+
                     MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}
                 }
                 Result {
