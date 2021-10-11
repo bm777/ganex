@@ -6,6 +6,7 @@ Rectangle {
 //    width: parent.width * 0.9
     height: 50
     radius: height/2
+    property string f: "Nunito"
     color: "#ffffff"
     // icon searcah
     Image {id: _l
@@ -24,7 +25,7 @@ Rectangle {
         width: parent.width - (_l.width + _r.width) * 2
         maximumLength: 30
         hoverEnabled: true
-        font{family: "Comfortaa"; pointSize: 14}
+        font{family: f; pointSize: 14}
         background: Rectangle {
             color: "transparent"
             border.color: "black"
