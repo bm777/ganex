@@ -39,13 +39,28 @@ Rectangle {
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                     visible: audio
-                    MouseArea {
-                        anchors.fill: parent
-                        hoverEnabled: true
-                        onClicked: {
-                            pop.visible = true
-                        }
-                    }
+                    MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}            
+                }
+                Result {
+                    height: 100
+                    width: root.width * 0.5
+                    x: root.width/2 - width/2
+                    visible: audio
+                    MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}
+                }
+                Result {
+                    height: 100
+                    width: root.width * 0.5
+                    x: root.width/2 - width/2
+                    visible: audio
+                    MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}
+                }
+                Result {
+                    height: 100
+                    width: root.width * 0.5
+                    x: root.width/2 - width/2
+                    visible: audio
+                    MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}
                 }
 
             }
