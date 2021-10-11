@@ -92,6 +92,7 @@ Rectangle {
                 }
                 Result {
                     height: 100
+                    t1: "Dua lipa | Inside the love"
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                     music: true
