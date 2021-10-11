@@ -46,6 +46,11 @@ Item {
          anchors.top: filter.bottom
          anchors.topMargin: 10
      }
+     Rectangle {
+         height: picture_filter.height
+         width: height
+         anchors.left: picture_filter.right
+     }
 
 
     /// connected as
