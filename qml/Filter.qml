@@ -93,7 +93,7 @@ Item {
          }
      }
      Rectangle {
-         width: child.width * 1.5
+         width: parent.width * 0.8
          height: child.height * 1.5
          color: "#ffdf60"
          anchors.left: connexion.right
