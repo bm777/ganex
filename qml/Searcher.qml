@@ -9,5 +9,6 @@ Rectangle {
     Search {
         id: search
         width:parent.width * 0.4
+        anchors.horizontalCenter: parent.horizontalCenter
     }
 }
