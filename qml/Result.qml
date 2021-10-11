@@ -7,6 +7,7 @@ Rectangle {
     property string f: "Nunito"
     property string t1: "Title of the art"
     property string t2: "sub title of the top"
+    property bool music: true
 
 
     Text {
@@ -40,6 +41,12 @@ Rectangle {
         width: parent.width * 0.45
         color: "#ffffff"
         anchors.left: separator.right
+        Image {
+            anchors.centerIn: parent
+            height: parent.height
+            width: height
+            source: ""
+        }
     }
     Rectangle {
         width: parent.width - content.x - content.width
