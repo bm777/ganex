@@ -74,7 +74,7 @@ Item {
          height: 10
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#1bffdf60"
-         anchors.top: date_filter.bottom
+         anchors.top: picture_filter.bottom
      }
 
 }
