@@ -7,7 +7,7 @@ Rectangle {
 
 
     /// separator
-    Rectangle {
+    Rectangle {id: separator
         height: parent.height
         width: 4
         color: "#000000"
@@ -17,6 +17,6 @@ Rectangle {
         height: parent.height
         width: parent.width * 0.45
         color: "#ffffff"
-        anchors.centerIn: parent
+        anchors.left: separator.right
     }
 }
