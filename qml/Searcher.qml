@@ -56,5 +56,7 @@ Rectangle {
         id: pop
         visible: false
         width: root.width * 0.5
+        anchors.centerIn: parent
+        height: width
     }
 }
