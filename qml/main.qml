@@ -42,7 +42,7 @@ Window {
         x: filter.width
 
         Searcher {
-            border.color: "red"
+//            border.color: "red"
 
         }
     }
