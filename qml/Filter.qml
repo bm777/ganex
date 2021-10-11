@@ -5,7 +5,7 @@ Item {
     id: root
     property bool dark: false
     property string f: "Nunito"
-    property bool search: child.text==="Search" ? true : false
+    property bool search: child.text==="Searcher" ? true : false
 
     //
      Rectangle {
