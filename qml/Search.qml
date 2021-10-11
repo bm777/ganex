@@ -39,7 +39,7 @@ Rectangle {
     // micro
     Rectangle {
         anchors.verticalCenter: parent.verticalCenter
-        height: parent.height * 0.4
+        height: parent.height * 0.9
         x: parent.width - width
         width: height
         radius: height/2
@@ -48,7 +48,7 @@ Rectangle {
         Image {id: _r
             source: "../img/micro.png"
             height: parent.height
-            width: parent.width
+            width: height
             anchors.centerIn: parent
         }
     }
