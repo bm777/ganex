@@ -54,7 +54,7 @@ Item {
          text: "Connected as"
          font{family: f; pointSize: 15; bold: true}
          x: parent.width * 0.1
-         y: x * 0.6
+         y: parent.height * 0.9
          color: "#666666"
      }
 
