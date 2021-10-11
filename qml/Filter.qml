@@ -84,10 +84,10 @@ Item {
          anchors.left: connexion.right
          radius: height/2
          anchors.leftMargin: 5
-         y:
+         y: connexion.y
          Text {id: child
              text: "Searcher"
-             font{family: f; pointSize: 13; bold: false}
+             font{family: f; pointSize: 13; bold: true}
              anchors.centerIn: parent
              color: "#666666"
          }
