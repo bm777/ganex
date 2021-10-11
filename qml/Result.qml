@@ -4,6 +4,15 @@ Rectangle {
     id: root
     color: "#ffdf60"
     radius: 15
+    property string t1: "Title"
+    property string t2: "sub title"
+
+
+    Text {
+        id: title1
+        text:t1
+    }
+
 
 
     /// separator
