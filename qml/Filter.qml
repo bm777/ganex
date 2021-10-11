@@ -79,7 +79,7 @@ Item {
      }
      Rectangle {
          width: child.width * 1.2
-         height: child.height
+         height: child.height * 1.2
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#ffdf60"
          anchors.top: connexion.bottom
@@ -87,7 +87,7 @@ Item {
          anchors.topMargin: 5
          Text {id: child
              text: "Searcher"
-             font{family: f; pointSize: 15; bold: false}
+             font{family: f; pointSize: 13; bold: false}
              anchors.centerIn: parent
              color: "#666666"
          }
