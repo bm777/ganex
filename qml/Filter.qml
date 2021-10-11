@@ -50,6 +50,7 @@ Item {
      RadioButton {
          anchors.left: picture_filter.right
          anchors.leftMargin: 10
+         height: picture_filter.height * 0.7
      }
 
 
