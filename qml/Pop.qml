@@ -3,6 +3,7 @@ import QtQuick 2.0
 Rectangle {
     id: root
     border.color: "#ffdf60"
+    property bool art: true
 //    color: "#ffdf60"
     property string t1: "title of the art"
     property string t2: "sub title of the art"
@@ -39,8 +40,16 @@ Rectangle {
     Image {
         anchors.centerIn: parent
         height: 150
+        visible: !art
         width: height
         source: "../img/music.png"
+    }
+    Image {
+        anchors.centerIn: parent
+        height: 150
+        visible: art
+        width: height
+        source: "../img/art.png"
     }
 
 
