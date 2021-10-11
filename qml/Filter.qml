@@ -3,7 +3,7 @@ import QtQuick 2.0
 Item {
     id: root
     property bool dark: false
-    property string f: "Nunitho"
+    property string f: "Nunito"
 
     //
      Rectangle {
