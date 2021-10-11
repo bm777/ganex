@@ -48,7 +48,7 @@ Item {
          anchors.topMargin: parent.height * 0.05
      }
 
-     Column {
+     Column {id: col
          x:filter.x
          height: type_filter.height * 0.7
          anchors.top: type_filter.bottom
@@ -79,7 +79,7 @@ Item {
      // background for content of filter
      Rectangle {
          width: parent.width * 0.8
-         height:
+         height: col.y + col.height - type_filter.y
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#1bffdf60"
          anchors.top: type_filter.bottom
