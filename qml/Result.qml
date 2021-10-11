@@ -22,5 +22,7 @@ Rectangle {
     Rectangle {
         width: parent.width - separator.width - content.width
         anchors.left: content.right
+        height: parent.height
+        border.color: "red"
     }
 }
