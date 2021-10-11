@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file alias="logo">img/dclimate.png</file>
+        <file>qml/Header.qml</file>
+        <file>qml/Filter.qml</file>
+        <file>img/menu.png</file>
+    </qresource>
+</RCC>
