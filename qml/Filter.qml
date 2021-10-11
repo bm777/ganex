@@ -71,7 +71,7 @@ Item {
     /// connected as
      Text {
          id: connexion
-         text: "Connected as"
+         text: "Connected as:"
          font{family: f; pointSize: 15; bold: false}
          x: parent.width * 0.1
          y: parent.height * 0.9
