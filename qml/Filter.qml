@@ -52,7 +52,7 @@ Item {
      Text {
          id: connexion
          text: "Connected as"
-         font{family: f; pointSize: 15; bold: true}
+         font{family: f; pointSize: 15; bold: false}
          x: parent.width * 0.1
          y: parent.height * 0.8
          color: "#666666"
