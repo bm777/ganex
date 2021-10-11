@@ -47,7 +47,7 @@ Rectangle {
 
         Image {id: _r
             source: "../img/micro.png"
-            height: parent.height
+            height: parent.height * 0.5
             width: height
             anchors.centerIn: parent
         }
