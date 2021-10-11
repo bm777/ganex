@@ -99,7 +99,7 @@ Item {
          border.color: "#ffdf60"
          anchors.top: frame.bottom
          radius: height/2
-         anchors.bottomMargin: 5
+         anchors.topMargin: 5
          y: connexion.y + connexion.height/2 - height/2
          Text {id: content
              text: "switch"
