@@ -20,6 +20,7 @@ Rectangle {
     TextField {id: search
         placeholderText: "What are you looking for"
         color: "#666666"
+        height: 20
         maximumLength: 30
         anchors.centerIn: parent
         hoverEnabled: true
