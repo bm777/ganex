@@ -21,25 +21,16 @@ Item {
 
      ///////////////////////////////
      Text {
-         id: line
-         text: "Filters"
-         font{family: f; pointSize: 15; bold: true}
-         x: parent.width * 0.1
-         y: x
-         color: "#666666"
-     }
-     ////////////////////////////////
-     Text {
          id: filter
          text: "Filters"
          font{family: f; pointSize: 15; bold: true}
          x: parent.width * 0.1
-         y: parent.height * 0.2
+         y: x * 0.6
          color: "#666666"
      }
      Image {
-        y: line.y + line.height/2 - height/2
-        height: line.height * 1.2
+        y: filter.y + filter.height/2 - height/2
+        height: filter.height * 1.2
         width: height
         x: parent.width - width * 2
         source: "../img/menu.png"
