@@ -57,6 +57,6 @@ Rectangle {
         visible: false
         width: root.width * 0.5
         anchors.centerIn: parent
-        height: width
+        height: width * 0.7
     }
 }
