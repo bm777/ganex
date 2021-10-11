@@ -1,4 +1,5 @@
 import QtQuick 2.0
+import QtQuick.Controls 2.0
 
 Item {
     id: root
@@ -54,8 +55,9 @@ Item {
          color: "red"
          y: picture_filter.y
          anchors.leftMargin: 10
-         Rectangle {
+         Rad {
              anchors.centerIn: parent
+             color:
          }
      }
 
