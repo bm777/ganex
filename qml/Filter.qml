@@ -87,8 +87,7 @@ Item {
          Text {
              text: "Searcher"
              font{family: f; pointSize: 15; bold: false}
-             x: parent.width * 0.1
-             y: parent.height * 0.8
+             anchors.centerIn: parent
              color: "#666666"
          }
      }
