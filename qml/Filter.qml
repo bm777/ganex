@@ -57,9 +57,12 @@ Item {
              checked: true
              text: qsTr("Picture")
              first: "#ffdf60"
+             second: "#ffdf60"
          }
          Radio {
              text: qsTr("Audio")
+             first: "#ffdf60"
+             second: "#ffdf60"
          }
      }
 
