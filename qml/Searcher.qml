@@ -76,6 +76,7 @@ Rectangle {
                 }
                 Result {
                     height: 100
+                    t1: "Puller | inspiration"
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                     visible: audio
