@@ -36,4 +36,13 @@ Rectangle {
         font{family: "Nunito"; pointSize: 12}
     }
 
+    Image {
+        anchors.centerIn: parent
+        height: parent.height
+        width: height
+        visible: music
+        source: "../img/music.png"
+    }
+
+
 }
