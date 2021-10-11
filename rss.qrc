@@ -11,6 +11,6 @@
         <file>img/micro.png</file>
         <file>img/search.png</file>
         <file>qml/Result.qml</file>
-        <file>qml/Popup.qml</file>
+        <file>qml/Pop.qml</file>
     </qresource>
 </RCC>

@@ -52,7 +52,7 @@ Rectangle {
 
     }
 
-    Popup {
+    Pop {
         id: pop
         visible: false
         width: root.width * 0.5
