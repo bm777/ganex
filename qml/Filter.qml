@@ -64,6 +64,7 @@ Item {
              first: "#ffdf60"
              second: "#ffdf60"
          }
+
      }
 
 
