@@ -44,14 +44,14 @@ Rectangle {
         Image {
             anchors.centerIn: parent
             height: parent.height
-            width: (height/933) * 1128
+            width: height
             visible: music
             source: "../img/music.png"
         }
         Image {
             anchors.centerIn: parent
             height: parent.height
-            width: (933/height) * 1128
+            width: height
             visible: !music
             source: "../img/art.png"
         }
