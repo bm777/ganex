@@ -53,6 +53,18 @@ Item {
          height: picture_filter.height * 0.7
          y: picture_filter.y
      }
+     Row {
+         RadioButton {
+             checked: true
+             text: qsTr("First")
+         }
+         RadioButton {
+             text: qsTr("Second")
+         }
+         RadioButton {
+             text: qsTr("Third")
+         }
+     }
 
 
     /// connected as
