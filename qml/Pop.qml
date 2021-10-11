@@ -5,7 +5,7 @@ Rectangle {
     border.color: "#ffdf60"
     property bool art: true
 //    color: "#ffdf60"
-    property string t1: "title of the art"
+    property string t1: "MR der | open to ocean"
     property string t2: "sub title of the art"
 
     Text {
