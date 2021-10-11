@@ -4,7 +4,7 @@ import QtQuick.Controls 2.12
 RadioButton {
     id: control
     text: qsTr("RadioButton")
-    checked: true
+    checked: false
 
     indicator: Rectangle {
         implicitWidth: 26
