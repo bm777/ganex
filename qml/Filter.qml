@@ -106,7 +106,7 @@ Item {
              text: "switch"
              font{family: f; pointSize: 12; bold: true}
              anchors.centerIn: parent
-             color: "#666666"
+             color: "#ffdf60"
          }
 
      }
