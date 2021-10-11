@@ -20,7 +20,7 @@ Rectangle {
         anchors.left: separator.right
     }
     Rectangle {
-        width: parent.width - separator.width - content.width
+        width: parent.width - content.x - content.width
         anchors.left: content.right
         height: parent.height
         border.color: "red"
