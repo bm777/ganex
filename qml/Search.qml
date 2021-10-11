@@ -43,7 +43,7 @@ Rectangle {
         x: parent.width - width - parent.height * 0.1
         width: height
         radius: height/2
-        border.color: "red"
+        color: "#eeeeee"
 
         Image {id: _r
             source: "../img/micro.png"
