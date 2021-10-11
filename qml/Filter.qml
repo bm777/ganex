@@ -50,6 +50,8 @@ Item {
          height: picture_filter.height
          width: height
          anchors.left: picture_filter.right
+         radius: height/2
+         color: "red"
      }
 
 
