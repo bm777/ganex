@@ -51,6 +51,7 @@ Item {
          anchors.left: picture_filter.right
          anchors.leftMargin: 10
          height: picture_filter.height * 0.7
+         y: picture_filter.y
      }
 
 
