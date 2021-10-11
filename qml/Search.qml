@@ -17,11 +17,19 @@ Rectangle {
     }
 
     // search
-    Search {
-        id: search
-        width: parent.width * 0.8
-        height: parent.height
+    TextField {
+        placeholderText: "Search by Place or Potition"
+        color: "#80000000"
+        maximumLength: 30
         anchors.centerIn: parent
+        hoverEnabled: true
+        font{family: "Comfortaa"; pointSize: 14}
+        background: Rectangle {
+            color: "transparent"
+    //        border.color: "black"
+        }
+        verticalAlignment: TextInput.AlignVCenter
+
     }
 
     // micro
