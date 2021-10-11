@@ -59,6 +59,7 @@ Item {
              anchors.centerIn: parent
              width: parent.width * 0.9
              height: width
+             radius: height/2
          }
      }
 
