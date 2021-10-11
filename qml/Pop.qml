@@ -9,6 +9,9 @@ Rectangle {
         id: close
         text: qsTr("x")
         color: "red"
+        font{pointSize: 20}
+        x: parent.width - width * 1.5
+        y: 5
     }
 
 }
