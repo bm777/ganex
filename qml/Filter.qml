@@ -80,7 +80,6 @@ Item {
      Rectangle {
          width: child.width * 1.5
          height: child.height * 1.5
-         anchors.horizontalCenter: parent.horizontalCenter
          color: "#ffdf60"
          anchors.left: connexion.right
          radius: height/2
