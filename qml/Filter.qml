@@ -45,7 +45,7 @@ Item {
          x: filter.x
          color: "#78909c"
          anchors.top: filter.bottom
-         anchors.topMargin: 10
+         anchors.topMargin: 50
      }
      RadioButton {
          anchors.left: picture_filter.right
