@@ -39,7 +39,7 @@ Item {
 
      /// place and date
      Text {
-         id: picture_filter
+         id: type_filter
          text: "Art selection"
          font {family: f; pointSize: 11; bold: false}
          x: filter.x
@@ -50,8 +50,8 @@ Item {
 
      Column {
          x:filter.x
-         height: picture_filter.height * 0.7
-         anchors.top: picture_filter.bottom
+         height: type_filter.height * 0.7
+         anchors.top: type_filter.bottom
          anchors.topMargin: 20
          Radio {
              checked: true
@@ -79,10 +79,10 @@ Item {
      // background for content of filter
      Rectangle {
          width: parent.width * 0.8
-         height: 10
+         height:
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#1bffdf60"
-         anchors.top: picture_filter.bottom
+         anchors.top: type_filter.bottom
      }
 
 }
