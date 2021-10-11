@@ -6,5 +6,6 @@
         <file>qml/Filter.qml</file>
         <file>img/menu.png</file>
         <file>qml/Radio.qml</file>
+        <file>qml/Search.qml</file>
     </qresource>
 </RCC>
