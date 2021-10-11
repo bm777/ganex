@@ -13,7 +13,7 @@ Rectangle {
         height: parent.height * 0.4
         width: height
         anchors.verticalCenter: parent.verticalCenter
-
+        x: parent.height * 0.2
     }
 
     // search
