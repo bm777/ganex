@@ -6,7 +6,7 @@ Rectangle {
 //    width: parent.width * 0.9
     height: 50
     radius: height/2
-    color: "#10b6b6b6"
+    color: "#ffffff"
     // icon searcah
     Image {
         source: "../img/search.png"
