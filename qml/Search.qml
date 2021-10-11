@@ -37,11 +37,15 @@ Rectangle {
     }
 
     // micro
-    Image {id: _r
-        source: "../img/micro.png"
-        height: parent.height * 0.4
-        width: height
+    Rectangle {
         anchors.verticalCenter: parent.verticalCenter
+        height: parent.height * 0.4
         anchors.left: search.right
+        width: height
+        Image {id: _r
+            source: "../img/micro.png"
+            height: parent.height
+            width: parent.width
+        }
     }
 }
