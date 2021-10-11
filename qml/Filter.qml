@@ -48,7 +48,7 @@ Item {
          anchors.topMargin: parent.height * 0.05
      }
 
-     Row {
+     Column {
 
          height: picture_filter.height * 0.7
          y: picture_filter.y
