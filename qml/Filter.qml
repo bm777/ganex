@@ -52,11 +52,11 @@ Item {
 
          height: picture_filter.height * 0.7
          y: picture_filter.y
-         RadioButton {
+         Radio {
              checked: true
              text: qsTr("Picture")
          }
-         RadioButton {
+         Radio {
              text: qsTr("Audio")
          }
      }
