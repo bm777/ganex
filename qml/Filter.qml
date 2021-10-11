@@ -100,7 +100,7 @@ Item {
          width: parent.width * 0.8
          height: parent.height * 0.15
          anchors.horizontalCenter: parent.horizontalCenter
-         color: "#80ffdf60"
+         color: "#20ffdf60"
          anchors.top: type_filter.bottom
          anchors.topMargin: 5
          radius: 5
