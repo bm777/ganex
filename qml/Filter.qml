@@ -83,7 +83,7 @@ Item {
      // background for content of filter
      Rectangle {
          width: parent.width * 0.8
-         height: width
+         height: parent.height * 0.2
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#1bffdf60"
          anchors.top: type_filter.bottom
