@@ -25,6 +25,7 @@ Rectangle {
         text: t1
         x: parent.width * 0.05
         y: x
+        font{family: "Nunito"; pointSize: 14}
     }
 
 }
