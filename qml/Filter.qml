@@ -52,6 +52,7 @@ Item {
          anchors.left: picture_filter.right
          radius: height/2
          color: "red"
+         anchors.verticalCenter: picture_filter.verticalAlignment
      }
 
 
