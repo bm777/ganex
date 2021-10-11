@@ -4,6 +4,8 @@ import QtQuick.Controls 2.5
 Rectangle {
     id: root
     anchors.fill: parent
+    property bool music: true
+    property bool audio: true
     color: "transparent"
 
 
@@ -36,7 +38,7 @@ Rectangle {
                     height: 100
                     width: root.width * 0.5
                     x: root.width/2 - width/2
-
+                    visible:
                     MouseArea {
                         anchors.fill: parent
                         hoverEnabled: true
