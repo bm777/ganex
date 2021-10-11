@@ -100,6 +100,7 @@ Item {
          anchors.top: frame.bottom
          radius: height/2
          anchors.topMargin: 5
+         anchors.horizontalCenter: parent.horizontalCenter
          y: connexion.y + connexion.height/2 - height/2
          Text {id: content
              text: "switch"
@@ -107,6 +108,7 @@ Item {
              anchors.centerIn: parent
              color: "#666666"
          }
+
      }
 
 
