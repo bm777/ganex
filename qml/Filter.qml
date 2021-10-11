@@ -77,7 +77,7 @@ Item {
          y: parent.height * 0.9
          color: "#666666"
      }
-     Rectangle {
+     Rectangle {id: frame
          width: child.width * 1.5
          height: child.height * 1.5
          color: "#ffdf60"
@@ -96,9 +96,9 @@ Item {
          width: parent.width * 0.8
          height: child.height * 1.5
          color: "#ffdf60"
-         anchors.left: connexion.right
+         anchors.top: frame.bottom
          radius: height/2
-         anchors.leftMargin: 5
+         anchors.bottomMargin: 5
          y: connexion.y + connexion.height/2 - height/2
          Text {id: content
              text: "switch"
