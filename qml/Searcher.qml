@@ -41,7 +41,7 @@ Rectangle {
                         anchors.fill: parent
                         hoverEnabled: true
                         onClicked: {
-
+                            pop.visible = true
                         }
                     }
                 }
@@ -50,5 +50,10 @@ Rectangle {
             }
         }
 
+    }
+
+    Popup {
+        id: pop
+        visible: false
     }
 }
