@@ -112,6 +112,7 @@ Item {
              anchors.fill: parent
              hoverEnabled: true
              onEntered: parent.color = "#40ffdf60"
+             onExited: parent.color = "transparent"
          }
 
      }
