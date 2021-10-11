@@ -7,7 +7,7 @@ Rectangle {
     property string f: "Nunito"
     property string t1: "Title of the art"
     property string t2: "sub title of the top"
-    property bool music: false
+    property bool music: true
 
 
 
