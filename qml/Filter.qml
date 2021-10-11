@@ -40,7 +40,7 @@ Item {
      /// place and date
      Text {
          id: picture_filter
-         text: "Type of art"
+         text: "Art selection"
          font {family: f; pointSize: 11; bold: false}
          x: filter.x
          color: "#78909c"
