@@ -87,6 +87,7 @@ Item {
          anchors.horizontalCenter: parent.horizontalCenter
          color: "#1bffdf60"
          anchors.top: type_filter.bottom
+         anchors.topMargin: 5
      }
 
 }
