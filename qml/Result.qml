@@ -23,7 +23,6 @@ Rectangle {
         anchors.top: title1.bottom
         anchors.topMargin: 25
         color: "#666666"
-        y: 10
     }
 
 
