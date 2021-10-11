@@ -44,7 +44,7 @@ Rectangle {
         Image {
             anchors.centerIn: parent
             height: parent.height
-            width: (933/height) * 1128
+            width: (height/933) * 1128
             visible: music
             source: "../img/music.png"
         }
