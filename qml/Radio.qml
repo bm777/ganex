@@ -4,6 +4,8 @@ import QtQuick.Controls 2.12
 RadioButton {
     id: control
     text: qsTr("RadioButton")
+    property string first: "#17a81a"
+    property string second: "#21be2b"
     checked: false
 
     indicator: Rectangle {
@@ -12,7 +14,7 @@ RadioButton {
         x: control.leftPadding
         y: parent.height / 2 - height / 2
         radius: 13
-        border.color: control.down ? "#17a81a" : "#21be2b"
+        border.color: control.down ? first : second
 
         Rectangle {
             width: 14
