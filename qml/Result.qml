@@ -25,5 +25,10 @@ Rectangle {
         height: parent.height
 //        border.color: "red"
         color: "transparent"
+        Rectangle {
+            width: parent.width * 0.3
+            height: width
+            anchors.centerIn: parent
+        }
     }
 }
