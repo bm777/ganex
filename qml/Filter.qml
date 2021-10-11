@@ -56,13 +56,10 @@ Item {
      Row {
          RadioButton {
              checked: true
-             text: qsTr("First")
+             text: qsTr("Picture")
          }
          RadioButton {
-             text: qsTr("Second")
-         }
-         RadioButton {
-             text: qsTr("Third")
+             text: qsTr("Audio")
          }
      }
 
