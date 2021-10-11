@@ -8,7 +8,7 @@ Rectangle {
     radius: height/2
     color: "#ffffff"
     // icon searcah
-    Image {
+    Image {id: _l
         source: "../img/search.png"
         height: parent.height * 0.4
         width: height
@@ -21,6 +21,7 @@ Rectangle {
         placeholderText: "What are you looking for"
         color: "#666666"
         height: 20
+        width: parent.width - _l.width - _r.width
         maximumLength: 30
         anchors.centerIn: parent
         hoverEnabled: true
@@ -34,7 +35,7 @@ Rectangle {
     }
 
     // micro
-    Image {
+    Image {id: _r
         source: "../img/micro.png"
         height: parent.height * 0.4
         width: height
