@@ -25,7 +25,7 @@ Item {
          text: "Filters"
          font{family: f; pointSize: 15; bold: true}
          x: parent.width * 0.1
-         y: x * 0.6
+         y: parent.height * 0.2
          color: "#666666"
      }
      Image {
