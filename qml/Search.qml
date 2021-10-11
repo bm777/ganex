@@ -29,6 +29,7 @@ Rectangle {
             color: "transparent"
             border.color: "black"
         }
+        anchors.left: _l.right
         verticalAlignment: TextInput.AlignVCenter
 
     }
