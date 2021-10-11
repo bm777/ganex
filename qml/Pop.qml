@@ -27,5 +27,13 @@ Rectangle {
         y: x
         font{family: "Nunito"; pointSize: 14}
     }
+    Text {
+        id: _t2
+        text: t1
+        x: parent.width * 0.05
+        y: x * 3
+        color: "#666666"
+        font{family: "Nunito"; pointSize: 14}
+    }
 
 }
