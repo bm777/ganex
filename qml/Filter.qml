@@ -52,7 +52,7 @@ Item {
          x:filter.x
          height: type_filter.height * 0.7
          anchors.top: type_filter.bottom
-         anchors.topMargin: 20
+         anchors.topMargin: 10
          Radio {
              checked: true
              text: qsTr("Picture")
