@@ -43,13 +43,14 @@ Rectangle {
                 }
                 Result {
                     height: 100
+                    t1: "Dj snake | freestyle"
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                     music: true
                     MouseArea {anchors.fill: parent ; onClicked: { pop.visible = true}}
                 }
                 Result {
-                    t1: "Dj snake | freestyle"
+                    t1: "MR der | open to ocean"
                     height: 100
                     width: root.width * 0.5
                     x: root.width/2 - width/2
