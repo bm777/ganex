@@ -32,6 +32,15 @@ Window {
         anchors.topMargin: (root.height - height) * 0.2
     }
 
+    //
+    Item {
+        id: search
+    }
+    Item {
+        id: creator
+        visible: filter.creator
+    }
+
 
 
 }
