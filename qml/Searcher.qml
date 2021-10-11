@@ -33,7 +33,6 @@ Rectangle {
                 id: col
                 spacing: 10
                 Result {
-                    height: 80
                     width: root.width * 0.5
                     x: root.width/2 - width/2
                 }
