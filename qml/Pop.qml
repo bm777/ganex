@@ -38,9 +38,8 @@ Rectangle {
 
     Image {
         anchors.centerIn: parent
-        height: parent.height
+        height: 150
         width: height
-        visible: music
         source: "../img/music.png"
     }
 
