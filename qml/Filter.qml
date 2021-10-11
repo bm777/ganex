@@ -49,7 +49,7 @@ Item {
      }
 
      Column {
-
+         x:filter.x
          height: picture_filter.height * 0.7
          y: picture_filter.y
          Radio {
