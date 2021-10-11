@@ -87,7 +87,7 @@ Item {
          y: connexion.y + connexion.height/2 - height/2
          Text {id: child
              text: "Searcher"
-             font{family: f; pointSize: 13; bold: true}
+             font{family: f; pointSize: 12; bold: true}
              anchors.centerIn: parent
              color: "#666666"
          }
